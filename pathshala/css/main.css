@@ -1,0 +1,28 @@
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
+.hide {
+    display: none;
+}
+
+.button_l{
+    border:1px solid #2e6da4;
+    margin:8px 0;
+    padding:6px 12px !important;
+    border-radius: 4px;
+    color:#337ab7 !important;
+}
+
+.button_l:hover{
+    color:#fff !important;
+    background: #337ab7 !important;   
+    -webkit-transition: background 0.3s, color 0.3s;
+    -o-transition: background 0.3s, color 0.3s;
+    transition: background 0.3s, color 0.3s;
+}
+
+.page-header a{
+    margin-left: 8px;
+}

@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Aaarghnormal';
+    src: url('../fonts/Aaargh-webfont.eot');
+    src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aaargh-webfont.woff') format('woff'),
+         url('../fonts/Aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/Aaargh-webfont.svg#../fonts/Aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	margin: 0;
+}
+#upperBody{
+		background: rgba(0, 104, 91, 0.1);
+		padding: 200px 0 100px;
+		margin-bottom: 60px;
+}
+#icodeIcon{
+	width: 150px;
+	position: fixed;
+	top: 20px;
+	margin-left: 20px;
+	padding-bottom: 50px;
+}
+#aakritiIcon{
+	width: 120px;
+	margin-right: 20px;
+	margin-top: -190px;
+	float: right;
+}
+.infoText{
+	text-align: center;
+	font-family: Aaarghnormal;
+	font-size: 2.64rem;
+	color: #344;
+}
+#ourSupporters{
+	font-family: Aaarghnormal;
+	font-size: 23px;
+	text-align: center;
+	width: 200px;
+	margin: 0 auto 60px auto;
+	border-bottom: 3px solid #344;
+	padding-bottom: 10px;
+	color: #344;
+}
+#ourPartner{
+	font-family: Aaarghnormal;
+	font-size: 23px;
+	text-align: center;
+	width: 250px;
+	margin: 0 auto 20px auto;
+	border-bottom: 3px solid #344;
+	padding-bottom: 10px;
+	color: #344;
+}
+#sponsorslogo{
+	width: 900px;
+	margin: 0 auto 50px auto;
+	padding-bottom: 30px;
+}
+.logo{
+	display: inline;
+	margin: 30px;
+	padding: 0 20px;
+}
+#logo2{
+	display: inline-block;
+	padding: 1px;
+	width: 500px;
+	margin-left: 140px;
+	padding: 0 20px;
+}
+.logosweetcave{
+	margin: 0 30px;
+}
+.logorevive{
+	margin-left: 120px;
+}
+#quotation-layout{
+	font-family: Aaarghnormal;
+	font-size: 20px;
+	text-align: center;
+	color: #344; 
+	margin: 20px auto ;
+	width: 980px;
+}
+.quoteicon{
+	vertical-align: middle;
+	width: 120px;
+}
+#links{
+	width: 130px;
+	margin: 70px auto;
+	border-radius: 6px;
+}
+.linkfb{
+	width: 300px;
+	height: 300px;
+	border: 0 solid #ccc;
+}
+#links:hover{
+	transition: all 0.1s;
+	-wbkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);	
+}
+	#facebook-icon{
+		background: #3b5998;
+		text-indent: -999em;
+		width: 100px;
+		height: 110px;
+		border-radius: 5px;
+		border: 15px solid #3b5998;
+		position: relative;
+		overflow: hidden;
+		border-bottom: 0;
+		}
+	#facebook-icon::before{
+		border: 20px solid #eee;
+		content: "/20";
+		position: absolute;
+		width: 40px;
+		height: 90px;
+		bottom: -30px;
+		right: -37px;
+		border-radius: 25px;
+		}
+	#facebook-icon::after{
+		background: #eee;
+		content: "/20";
+		position: absolute;
+		width: 55px;
+		top: 50px;
+		height: 20px;
+		right: 5px;
+		}
+.linkform:hover{
+	box-shadow: 2px 2px 4px #ccc;
+	transition: all 0.1s;
+}
+.linkfb:hover{
+	box-shadow: 2px 2px 4px #ccc;
+	transition: all 0.1s;	
+}
+.linkpamphlet:hover{
+	box-shadow: 2px 2px 4px #ccc;
+	transition: all 0.1s;	
+}
+#lowerBody{
+	padding: 100px 0 100px 0;
+	background: rgb(0, 104, 91);
+}
+.happyimage{
+	padding-left: 20px;
+}
+/*.textDecoration1{
+	color: #4CAF50;
+}
+.textDecoration2{
+	color: #ff4444;
+}
+.textDecoration3{
+	color: orange;
+}*/
+.textDecoration4{
+	color: #4CAF50;
+	font-size: 30px;
+	line-height: 40px;
+}
+.winText{
+	text-align: center;
+	font-family: Aaarghnormal;
+	font-size: 2.64rem;
+	color: #fff;
+}
+/*rgb(0, 104, 91)*/

@@ -1,0 +1,21 @@
+/*!
+  Theme Name: UNESCO Damauli
+  Author: Kshitiz Tiwari
+  Description: Theme for UNESCO Club Damauli
+  Version: 1.1
+
+  */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.2.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+.radius {
+  border-radius: 3px; }
+
+.round {
+  border-radius: 1000px; }
+
+/*# sourceMappingURL=website_style.css.map */

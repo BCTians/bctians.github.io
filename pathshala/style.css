@@ -1,0 +1,282 @@
+/*!
+  Theme Name: Pathshala
+  Author: BCTians
+  Description: Pathhala Landing Page
+  Version: 1.1
+
+  */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.2.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+.radius {
+  border-radius: 3px; }
+
+.round {
+  border-radius: 1000px; }
+
+.transparent-light {
+  color: rgba(255, 255, 255, 0.5); }
+
+.cta {
+  padding: 1rem;
+  margin-top: 1rem;
+  min-width: 12rem;
+  background-color: #3C96E6;
+  font-size: 1rem;
+  box-shadow: 0 8px 24px rgba(60, 150, 230, 0.3); }
+  .cta:hover {
+    background-color: #1562a7; }
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  top: -5rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all 300ms;
+  padding: 0.5rem; }
+  .header.show {
+    top: 0;
+    transition: all 300ms; }
+
+.logo {
+  height: 3rem; }
+
+.site-title {
+  color: #787984;
+  margin-left: 1rem;
+  font-size: 1rem;
+  vertical-align: middle; }
+
+.header-nav {
+  padding: 0.6rem 0; }
+  .header-nav a {
+    vertical-align: middle;
+    display: inline;
+    margin-left: 1.2rem; }
+
+.masthead {
+  background-image: url("img/bg.png");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1; }
+
+.large-text {
+  font-size: 2rem; }
+  @media screen and (max-width: 39.9375em) {
+    .large-text {
+      font-size: 1.2rem; } }
+
+.pitch {
+  padding: 16% 0 10%;
+  background-image: url("img/products.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  position: relative;
+  z-index: 5; }
+  @media screen and (max-width: 39.9375em) {
+    .pitch {
+      background-image: none;
+      text-align: center; } }
+
+.nav-arrow {
+  margin-top: 1.5rem; }
+  @media screen and (max-width: 63.9375em) {
+    .nav-arrow {
+      display: none; } }
+
+.m-head {
+  color: #283593;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0;
+  font-weight: 700; }
+  @media screen and (max-width: 39.9375em) {
+    .m-head {
+      font-size: 2.5rem;
+      letter-spacing: inherit; } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .m-head {
+      font-size: 3rem;
+      letter-spacing: inherit; } }
+
+.m-sub-head {
+  font-size: 1.5rem;
+  color: #787984; }
+  @media screen and (max-width: 39.9375em) {
+    .m-sub-head {
+      font-size: 1rem; } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .m-sub-head {
+      font-size: 1.2rem; } }
+
+.section {
+  padding: 6rem 0; }
+  @media screen and (max-width: 39.9375em) {
+    .section {
+      padding: 2rem 0; } }
+  .section:nth-child(2n+1) {
+    background-color: #fff; }
+  .section.request-panel {
+    background-color: #283593;
+    color: #fff; }
+    .section.request-panel .section-title {
+      color: #fff; }
+
+.section-title {
+  font-size: 1.6rem;
+  color: #787984;
+  font-weight: 400;
+  margin-bottom: 1.8rem; }
+  .section-title.f-section-title {
+    padding-left: 4rem;
+    margin-bottom: 2rem;
+    color: #252630;
+    text-transform: none;
+    font-size: 1.8rem;
+    margin-top: 4rem; }
+    @media screen and (max-width: 39.9375em) {
+      .section-title.f-section-title {
+        padding-left: inherit;
+        text-align: center;
+        font-size: 1.5rem; } }
+  @media screen and (max-width: 39.9375em) {
+    .section-title {
+      font-size: 1.6rem; } }
+
+.step-number {
+  font-size: 8rem;
+  font-weight: bold;
+  color: rgba(120, 121, 132, 0.2);
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle; }
+  @media screen and (max-width: 63.9375em) {
+    .step-number {
+      font-size: 3rem; } }
+
+.step-counter {
+  position: relative; }
+  .step-counter::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    border-top: 1px solid rgba(120, 121, 132, 0.2);
+    right: 0;
+    top: 50%; }
+    @media screen and (max-width: 63.9375em) {
+      .step-counter::after {
+        display: none; } }
+
+.step-four::after {
+  display: none; }
+
+.step-title {
+  font-size: 1.2rem; }
+
+.step-desc {
+  margin-bottom: 1.8rem;
+  color: #787984; }
+
+.features {
+  position: relative;
+  z-index: 0;
+  overflow: hidden; }
+
+.feature-title {
+  font-size: 1.3rem;
+  margin-bottom: 0; }
+
+.feature-desc {
+  color: #787984;
+  font-size: 1.1rem; }
+
+.feature {
+  margin-bottom: 3rem;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 3rem auto;
+  padding-left: 4rem; }
+  .feature:first-child {
+    margin-top: 2rem; }
+
+.resource-mgmt {
+  background-image: url("img/ic_resources.png"); }
+
+.int-sch-mgmt {
+  background-image: url("img/ic_schedule_management.png"); }
+
+.send-notice {
+  background-image: url("img/ic_send.png"); }
+
+.teacher-profile {
+  background-image: url("img/ic_profile.png"); }
+
+.access-control {
+  background-image: url("img/ic_security.png"); }
+
+.notice-board {
+  background-image: url("img/ic_events2.png"); }
+
+.sch-mgmt {
+  background-image: url("img/ic_schedule_management.png"); }
+
+.study-res {
+  background-image: url("img/ic_notes.png"); }
+
+.class-routine {
+  background-image: url("img/ic_notices.png"); }
+
+.image-holder {
+  margin-right: -15rem;
+  z-index: -1;
+  margin-top: 2rem;
+  position: relative; }
+  @media screen and (max-width: 39.9375em) {
+    .image-holder {
+      margin-right: auto; } }
+  .image-holder img {
+    border-radius: 5px;
+    position: absolute; }
+    @media screen and (max-width: 39.9375em) {
+      .image-holder img {
+        position: static; } }
+
+.request-panel input {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  height: auto;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  color: #fff; }
+  .request-panel input:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border: 2px solid #fff; }
+
+.request-form {
+  margin-top: 3rem; }
+
+.fb-like {
+  margin-top: 1rem;
+  display: block !important; }
+
+.fb_iframe_widget_fluid {
+  display: block !important; }
+
+.footer {
+  padding: 2rem;
+  background-color: #eee;
+  color: #787984; }
+
+/*# sourceMappingURL=style.css.map */
